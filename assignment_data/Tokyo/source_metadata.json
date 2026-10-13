@@ -1,0 +1,106 @@
+{
+  "city": "Tokyo",
+  "timezone": "Asia/Tokyo",
+  "latitude": 35.68538788985764,
+  "longitude": 139.6977662931619,
+  "step_minutes": 10,
+  "module_area_m2": 1.69,
+  "roof_fraction": 0.8,
+  "surface_tilt": 35.68538788985764,
+  "surface_azimuth": 180.0,
+  "module_parameters": {
+    "gamma_ref": 1.0,
+    "mu_gamma": 0.002,
+    "I_L_ref": 7.3,
+    "I_o_ref": 1e-10,
+    "R_sh_ref": 400.0,
+    "R_s": 0.3,
+    "R_sh_0": 3000.0,
+    "cells_in_series": 60,
+    "alpha_sc": 0.004,
+    "EgRef": 1.12,
+    "irrad_ref": 1000.0,
+    "temp_ref": 25.0
+  },
+  "target_kind": "simulated_module_dc_power",
+  "power_unit": "W",
+  "irradiance_unit": "W/m²",
+  "interval_convention": "Each record treated as interval-mean value over step_minutes; verify source convention before field use.",
+  "year_convention": "Energy over supplied records; no leap-day imputation or annual extrapolation.",
+  "omitted_losses": [
+    "incidence-angle",
+    "soiling",
+    "wiring",
+    "inverter",
+    "building/row shading"
+  ],
+  "weather_coverage": {
+    "start": "2019-01-01 00:00:00+09:00",
+    "end": "2019-12-31 23:50:00+09:00",
+    "records": 52560,
+    "step_minutes": 10,
+    "expected_intervals_within_span": 52560,
+    "missing_intervals_within_span": 0,
+    "timestamp_coverage_within_span": 1.0,
+    "calendar_year": 2019,
+    "expected_calendar_intervals": 52560,
+    "missing_calendar_intervals": 0,
+    "calendar_coverage": 1.0,
+    "invalid_values": {
+      "Year": 0,
+      "Month": 0,
+      "Day": 0,
+      "Hour": 0,
+      "Minute": 0,
+      "Temperature": 0,
+      "DHI": 0,
+      "DNI": 0,
+      "GHI": 0,
+      "Wind Speed": 0
+    }
+  },
+  "power_coverage": {
+    "start": "2019-01-01 00:00:00+09:00",
+    "end": "2019-12-31 23:50:00+09:00",
+    "records": 52560,
+    "step_minutes": 10,
+    "expected_intervals_within_span": 52560,
+    "missing_intervals_within_span": 0,
+    "timestamp_coverage_within_span": 1.0,
+    "calendar_year": 2019,
+    "expected_calendar_intervals": 52560,
+    "missing_calendar_intervals": 0,
+    "calendar_coverage": 1.0,
+    "invalid_values": {
+      "power": 0
+    }
+  },
+  "geometry_audit": {
+    "input_count": 1898,
+    "retained_count": 1894,
+    "exact_duplicates_removed": 4,
+    "sum_area_m2": 481302.2136354366,
+    "union_area_m2": 463865.3227219562,
+    "overlap_area_m2": 17436.890913480427,
+    "overlap_fraction": 0.03622856994937496,
+    "policy": "Exact duplicates removed; overlaps and roof eligibility require review. Union is a geometric scenario, not verified usable roof area.",
+    "types_for_review": {
+      "building": 1330,
+      "landmark": 433,
+      "train_station": 49,
+      "civic": 19,
+      "subway": 15,
+      "school": 13,
+      "commercial": 12,
+      "hotel": 10,
+      "leisure": 10,
+      "hospital": 2,
+      "underground_mall": 1
+    }
+  },
+  "source_sha256": {
+    "Tokyo_weather.csv": "d52fc611cbc1a017b4640c7d3a062c50e17d2a9d9c6a1dcad489df9fa9ba4fe7",
+    "Tokyo_building.geojson": "2812e08938a971dc11958a5c777b4af96a05754c9a6882bbb635bb3154b859da"
+  },
+  "csv_sha256": "fcd6407a0ff2e17286432cc891728dba784454768c8628c55f3d2941d745a5c2"
+}

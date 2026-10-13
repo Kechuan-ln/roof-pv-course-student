@@ -1,0 +1,108 @@
+{
+  "city": "Seoul",
+  "timezone": "Asia/Seoul",
+  "latitude": 37.564615584608575,
+  "longitude": 126.99203414032135,
+  "step_minutes": 10,
+  "module_area_m2": 1.69,
+  "roof_fraction": 0.8,
+  "surface_tilt": 37.564615584608575,
+  "surface_azimuth": 180.0,
+  "module_parameters": {
+    "gamma_ref": 1.0,
+    "mu_gamma": 0.002,
+    "I_L_ref": 7.3,
+    "I_o_ref": 1e-10,
+    "R_sh_ref": 400.0,
+    "R_s": 0.3,
+    "R_sh_0": 3000.0,
+    "cells_in_series": 60,
+    "alpha_sc": 0.004,
+    "EgRef": 1.12,
+    "irrad_ref": 1000.0,
+    "temp_ref": 25.0
+  },
+  "target_kind": "simulated_module_dc_power",
+  "power_unit": "W",
+  "irradiance_unit": "W/m²",
+  "interval_convention": "Each record treated as interval-mean value over step_minutes; verify source convention before field use.",
+  "year_convention": "Energy over supplied records; no leap-day imputation or annual extrapolation.",
+  "omitted_losses": [
+    "incidence-angle",
+    "soiling",
+    "wiring",
+    "inverter",
+    "building/row shading"
+  ],
+  "weather_coverage": {
+    "start": "2019-01-01 00:00:00+09:00",
+    "end": "2019-12-31 23:50:00+09:00",
+    "records": 52560,
+    "step_minutes": 10,
+    "expected_intervals_within_span": 52560,
+    "missing_intervals_within_span": 0,
+    "timestamp_coverage_within_span": 1.0,
+    "calendar_year": 2019,
+    "expected_calendar_intervals": 52560,
+    "missing_calendar_intervals": 0,
+    "calendar_coverage": 1.0,
+    "invalid_values": {
+      "Year": 0,
+      "Month": 0,
+      "Day": 0,
+      "Hour": 0,
+      "Minute": 0,
+      "Temperature": 0,
+      "DHI": 0,
+      "DNI": 0,
+      "GHI": 0,
+      "Wind Speed": 0
+    }
+  },
+  "power_coverage": {
+    "start": "2019-01-01 00:00:00+09:00",
+    "end": "2019-12-31 23:50:00+09:00",
+    "records": 52560,
+    "step_minutes": 10,
+    "expected_intervals_within_span": 52560,
+    "missing_intervals_within_span": 0,
+    "timestamp_coverage_within_span": 1.0,
+    "calendar_year": 2019,
+    "expected_calendar_intervals": 52560,
+    "missing_calendar_intervals": 0,
+    "calendar_coverage": 1.0,
+    "invalid_values": {
+      "power": 0
+    }
+  },
+  "geometry_audit": {
+    "input_count": 1199,
+    "retained_count": 1190,
+    "exact_duplicates_removed": 9,
+    "sum_area_m2": 301037.9497293788,
+    "union_area_m2": 277040.8591893391,
+    "overlap_area_m2": 23997.090540039702,
+    "overlap_fraction": 0.07971450297748885,
+    "policy": "Exact duplicates removed; overlaps and roof eligibility require review. Union is a geometric scenario, not verified usable roof area.",
+    "types_for_review": {
+      "building": 1019,
+      "commercial": 75,
+      "roof": 36,
+      "civic": 17,
+      "apartments": 11,
+      "hotel": 11,
+      "house": 9,
+      "parking": 7,
+      "ruins": 1,
+      "warehouse": 1,
+      "school": 1,
+      "cathedral": 1,
+      "public": 1
+    }
+  },
+  "source_sha256": {
+    "Seoul_weather.csv": "da9be03fdf981cd9105d63601ce2690c5c586f5032f6308babac3337d8efa39a",
+    "Seoul_building.geojson": "804c36ba7dc2619f24f91759902cd5d522e1e2335bedb9e09ddffd3afe55c69d"
+  },
+  "csv_sha256": "ad96b8f50f14a46a4cc1ed32de1f8b80caf5ac1ef376854912125a7b3cbcfd72"
+}

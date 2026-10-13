@@ -1,0 +1,6 @@
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+result/*
+!result/README.md
+PV_Results.zip

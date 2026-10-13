@@ -1,0 +1,94 @@
+{
+  "city": "Shenzhen",
+  "timezone": "Asia/Shanghai",
+  "latitude": 22.77479352999377,
+  "longitude": 113.83685269803148,
+  "step_minutes": 10,
+  "module_area_m2": 1.69,
+  "roof_fraction": 0.8,
+  "surface_tilt": 22.77479352999377,
+  "surface_azimuth": 180.0,
+  "module_parameters": {
+    "gamma_ref": 1.0,
+    "mu_gamma": 0.002,
+    "I_L_ref": 7.3,
+    "I_o_ref": 1e-10,
+    "R_sh_ref": 400.0,
+    "R_s": 0.3,
+    "R_sh_0": 3000.0,
+    "cells_in_series": 60,
+    "alpha_sc": 0.004,
+    "EgRef": 1.12,
+    "irrad_ref": 1000.0,
+    "temp_ref": 25.0
+  },
+  "target_kind": "simulated_module_dc_power",
+  "power_unit": "W",
+  "irradiance_unit": "W/m²",
+  "interval_convention": "Each record treated as interval-mean value over step_minutes; verify source convention before field use.",
+  "year_convention": "Energy over supplied records; no leap-day imputation or annual extrapolation.",
+  "omitted_losses": [
+    "incidence-angle",
+    "soiling",
+    "wiring",
+    "inverter",
+    "building/row shading"
+  ],
+  "weather_coverage": {
+    "start": "2020-01-01 00:00:00+08:00",
+    "end": "2020-12-31 23:50:00+08:00",
+    "records": 52560,
+    "step_minutes": 10,
+    "expected_intervals_within_span": 52704,
+    "missing_intervals_within_span": 144,
+    "timestamp_coverage_within_span": 0.9972677595628415,
+    "calendar_year": 2020,
+    "expected_calendar_intervals": 52704,
+    "missing_calendar_intervals": 144,
+    "calendar_coverage": 0.9972677595628415,
+    "invalid_values": {
+      "Year": 0,
+      "Month": 0,
+      "Day": 0,
+      "Hour": 0,
+      "Minute": 0,
+      "Temperature": 0,
+      "DHI": 0,
+      "DNI": 0,
+      "GHI": 0,
+      "Wind Speed": 0,
+      "Solar Zenith Angle": 0
+    }
+  },
+  "power_coverage": {
+    "start": "2020-01-01 00:00:00+08:00",
+    "end": "2020-12-31 23:50:00+08:00",
+    "records": 52560,
+    "step_minutes": 10,
+    "expected_intervals_within_span": 52704,
+    "missing_intervals_within_span": 144,
+    "timestamp_coverage_within_span": 0.9972677595628415,
+    "calendar_year": 2020,
+    "expected_calendar_intervals": 52704,
+    "missing_calendar_intervals": 144,
+    "calendar_coverage": 0.9972677595628415,
+    "invalid_values": {
+      "power": 0
+    }
+  },
+  "geometry_audit": {
+    "input_count": 1080,
+    "retained_count": 1080,
+    "exact_duplicates_removed": 0,
+    "sum_area_m2": 285510.33896595426,
+    "union_area_m2": 285396.6756717886,
+    "overlap_area_m2": 113.66329416568624,
+    "overlap_fraction": 0.00039810570285246324,
+    "policy": "Exact duplicates removed; overlaps and roof eligibility require review. Union is a geometric scenario, not verified usable roof area."
+  },
+  "source_sha256": {
+    "Shenzhen_weather.csv": "1918c08640bdb4862c39af8a34dfade2ffcac3569005f9d6cad8a12f228b6bd9",
+    "Shenzhen_building.geojson": "336fb8f4202e17b63e85f02541c0a4c21644058025b2355b4a47fa13f1bc9833"
+  },
+  "csv_sha256": "2d6ece7ac73a650a01da985637ec09532ced604f1f2f9c615691abe752ae33a5"
+}

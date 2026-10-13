@@ -1,0 +1,110 @@
+{
+  "city": "Bangkok",
+  "timezone": "Asia/Bangkok",
+  "latitude": 13.737116754012693,
+  "longitude": 100.51208492426733,
+  "step_minutes": 10,
+  "module_area_m2": 1.69,
+  "roof_fraction": 0.8,
+  "surface_tilt": 13.737116754012693,
+  "surface_azimuth": 180.0,
+  "module_parameters": {
+    "gamma_ref": 1.0,
+    "mu_gamma": 0.002,
+    "I_L_ref": 7.3,
+    "I_o_ref": 1e-10,
+    "R_sh_ref": 400.0,
+    "R_s": 0.3,
+    "R_sh_0": 3000.0,
+    "cells_in_series": 60,
+    "alpha_sc": 0.004,
+    "EgRef": 1.12,
+    "irrad_ref": 1000.0,
+    "temp_ref": 25.0
+  },
+  "target_kind": "simulated_module_dc_power",
+  "power_unit": "W",
+  "irradiance_unit": "W/m²",
+  "interval_convention": "Each record treated as interval-mean value over step_minutes; verify source convention before field use.",
+  "year_convention": "Energy over supplied records; no leap-day imputation or annual extrapolation.",
+  "omitted_losses": [
+    "incidence-angle",
+    "soiling",
+    "wiring",
+    "inverter",
+    "building/row shading"
+  ],
+  "weather_coverage": {
+    "start": "2019-01-01 00:00:00+07:00",
+    "end": "2019-12-31 23:50:00+07:00",
+    "records": 52560,
+    "step_minutes": 10,
+    "expected_intervals_within_span": 52560,
+    "missing_intervals_within_span": 0,
+    "timestamp_coverage_within_span": 1.0,
+    "calendar_year": 2019,
+    "expected_calendar_intervals": 52560,
+    "missing_calendar_intervals": 0,
+    "calendar_coverage": 1.0,
+    "invalid_values": {
+      "Year": 0,
+      "Month": 0,
+      "Day": 0,
+      "Hour": 0,
+      "Minute": 0,
+      "Temperature": 0,
+      "DHI": 0,
+      "DNI": 0,
+      "GHI": 0,
+      "Wind Speed": 0
+    }
+  },
+  "power_coverage": {
+    "start": "2019-01-01 00:00:00+07:00",
+    "end": "2019-12-31 23:50:00+07:00",
+    "records": 52560,
+    "step_minutes": 10,
+    "expected_intervals_within_span": 52560,
+    "missing_intervals_within_span": 0,
+    "timestamp_coverage_within_span": 1.0,
+    "calendar_year": 2019,
+    "expected_calendar_intervals": 52560,
+    "missing_calendar_intervals": 0,
+    "calendar_coverage": 1.0,
+    "invalid_values": {
+      "power": 0
+    }
+  },
+  "geometry_audit": {
+    "input_count": 1869,
+    "retained_count": 1868,
+    "exact_duplicates_removed": 1,
+    "sum_area_m2": 379363.5276851121,
+    "union_area_m2": 368612.4246267343,
+    "overlap_area_m2": 10751.103058377805,
+    "overlap_fraction": 0.028339843642801843,
+    "policy": "Exact duplicates removed; overlaps and roof eligibility require review. Union is a geometric scenario, not verified usable roof area.",
+    "types_for_review": {
+      "building": 1544,
+      "commercial": 144,
+      "residential": 117,
+      "house": 26,
+      "retail": 8,
+      "temple": 5,
+      "apartments": 5,
+      "roof": 5,
+      "terrace": 4,
+      "building:part": 3,
+      "university": 2,
+      "school": 2,
+      "hotel": 1,
+      "mosque": 1,
+      "hospital": 1
+    }
+  },
+  "source_sha256": {
+    "Bangkok_weather.csv": "c593972c5116a71ec489cb4aebe2fbee102be4d8fb9807d1e7ff60745a2766e4",
+    "Bangkok_building.geojson": "8207d09d40d16ddc480784e7bff1ab296849ea9aec86982ec2454e02e59bd60c"
+  },
+  "csv_sha256": "46477a5cc8e7a0fa0dc33980c844c31007cea62fa392b68da1a6f8cd0697b196"
+}

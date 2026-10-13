@@ -1,0 +1,24 @@
+# Import this file in Anaconda Navigator, or double-click Start_Course.
+name: pv-course-2026
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - numpy==1.26.2
+      - pandas==2.1.4
+      - scipy==1.13.1
+      - pvlib==0.10.4
+      - timezonefinder==6.5.8
+      - matplotlib==3.8.2
+      - geopandas==0.14.1
+      - shapely==2.0.2
+      - pyproj==3.6.1
+      - contextily==1.4.0
+      - fiona==1.9.5
+      - scikit-learn==1.5.2
+      - nbformat==5.10.4
+      - ipykernel==6.29.5
+      - jupyterlab==4.3.4
