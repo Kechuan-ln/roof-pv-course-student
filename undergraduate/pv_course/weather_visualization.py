@@ -1,7 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-import warnings
 from .data_quality import coverage_report
 
 def read_weather(csv_path):
@@ -32,8 +31,6 @@ def read_weather(csv_path):
         raise ValueError('Negative irradiance or wind speed in weather file.')
     report = coverage_report(df)
     df.attrs['coverage'] = report
-    if report.get('missing_calendar_intervals', 0) or any(report['invalid_values'].values()):
-        warnings.warn('Weather coverage is incomplete or contains invalid values; inspect df.attrs["coverage"].', UserWarning)
     return df
 
 def plot_single_day(df, date_str):

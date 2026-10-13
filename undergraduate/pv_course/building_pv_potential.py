@@ -98,7 +98,7 @@ def calculate_pv_potential(buildings, pvout_data, roof_efficiency=0.8, module_ar
     if pd.isna(period_yield):
         raise ValueError('No valid power observations: energy cannot be calculated.')
 
-    # Calculate energy over the supplied records production in kWh for each building
+    # Calculate energy production in kWh for each building
     buildings['energy_kwh'] = buildings['usable_area'] * period_yield / 1000  # Convert from Wh to kWh
 
     return buildings
@@ -121,11 +121,11 @@ def create_statistics_plot(buildings):
     ax1.set_xlabel('Roof Area (m²)')
     ax1.set_ylabel('Number of Buildings')
     
-    # Scatter plot: Roof area vs energy over the supplied records production
+    # Scatter plot: Roof area vs energy production
     ax2.scatter(buildings['roof_area'], buildings['energy_kwh'], 
                alpha=0.5, c='orange')
-    ax2.set_title('Roof Area vs DC Energy over Supplied Records')
+    ax2.set_title('Roof Area vs DC Energy')
     ax2.set_xlabel('Roof Area (m²)')
-    ax2.set_ylabel('DC Energy over Supplied Records (kWh)')
+    ax2.set_ylabel('DC Energy (kWh)')
     
     plt.tight_layout()

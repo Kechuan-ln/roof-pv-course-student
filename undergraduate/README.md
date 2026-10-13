@@ -1,6 +1,6 @@
 # Regional Solar Energy Potential Analysis
 
-An undergraduate practical based on the supplied classroom material. The sequence is solar irradiance, fixed and tracking POA, module DC output, and rooftop PV potential.
+An undergraduate practical in solar energy assessment. The sequence is solar irradiance, fixed and tracking POA, module DC output, and rooftop PV potential.
 
 [Open in Google Colab](https://colab.research.google.com/github/Kechuan-ln/roof-pv-course-student/blob/codex/colab-course/undergraduate/Solar_PV_Practical.ipynb)
 
@@ -10,7 +10,15 @@ An undergraduate practical based on the supplied classroom material. The sequenc
 4. Use `DAY`, `SURFACE_TILT`, `ROOF_FRACTION` and `BUILDING_ID` for comparisons. Rerun dependent cells after changes.
 5. Run the final cell to download figures, CSV tables and calculation settings. Download the edited Notebook separately from the File menu.
 
-The Notebook has 10 code cells. Mean irradiance is expressed in W/m²; integrated irradiation in kWh/m²; simulated module power in W; and energy in kWh. Energy totals cover the supplied records. Shenzhen omits February 29, 2020; the other cities use 2019 data.
+The Notebook has 10 code cells. Mean irradiance is expressed in W/m²; integrated irradiation in kWh/m²; simulated module power in W; and energy in kWh.
+
+## Mini-project
+
+Select a city other than Bangkok or Shenzhen for the main analysis. The supplied assignment cities are Seoul and Tokyo. Read [Assignment.md](Assignment.md) for the tasks, submission requirements and marking criteria. The project contributes 20% of the final course grade: core PV analysis earns 50 marks and one extension earns 50 marks. Choose cross-city comparison, clustering or prediction for the extension.
+
+Submit executable code and a PowerPoint report with up to 10 content slides, excluding the cover. State individual contributions on the cover, include an AI-use declaration, and cite data sources and modelling assumptions.
+
+The detailed assessment document is [Mini-project guidelines and rubric](BSE4610_Mini_Project_Guidelines_and_Rubric.docx).
 
 ## Local Jupyter
 
