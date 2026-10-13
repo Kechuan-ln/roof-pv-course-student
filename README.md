@@ -1,5 +1,12 @@
 # Rooftop PV Course
 
+| Course | Colab entry | Scope |
+|---|---|---|
+| Undergraduate practical | [Open Notebook](https://colab.research.google.com/github/Kechuan-ln/roof-pv-course-student/blob/codex/colab-course/undergraduate/Solar_PV_Practical.ipynb) | Solar irradiance, fixed and tracking PV, module output and rooftop potential |
+| PV assessment and coursework | [Open Notebook](https://colab.research.google.com/github/Kechuan-ln/roof-pv-course-student/blob/codex/colab-course/PV_Practical.ipynb) | Guided PV assessment, 3D shadows and independent clustering or forecasting investigation |
+
+For the undergraduate practical, follow the [undergraduate instructions](undergraduate/README.md). The instructions below cover PV assessment and coursework.
+
 Complete the guided practical for Part A, then develop a clustering or forecasting investigation for Part B. Present both in one coursework report. Keep the complete package together in a writable local folder.
 
 ## 1. Start in Google Colab
