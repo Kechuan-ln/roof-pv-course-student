@@ -1,0 +1,10 @@
+{
+  "weather_data/Shenzhen_weather.csv": "1918c08640bdb4862c39af8a34dfade2ffcac3569005f9d6cad8a12f228b6bd9",
+  "weather_data/Bangkok_weather.csv": "c593972c5116a71ec489cb4aebe2fbee102be4d8fb9807d1e7ff60745a2766e4",
+  "weather_data/Seoul_weather.csv": "da9be03fdf981cd9105d63601ce2690c5c586f5032f6308babac3337d8efa39a",
+  "weather_data/Tokyo_weather.csv": "d52fc611cbc1a017b4640c7d3a062c50e17d2a9d9c6a1dcad489df9fa9ba4fe7",
+  "buildings_data/Shenzhen_building.geojson": "336fb8f4202e17b63e85f02541c0a4c21644058025b2355b4a47fa13f1bc9833",
+  "buildings_data/Tokyo_building.geojson": "2812e08938a971dc11958a5c777b4af96a05754c9a6882bbb635bb3154b859da",
+  "buildings_data/Bangkok_building.geojson": "8207d09d40d16ddc480784e7bff1ab296849ea9aec86982ec2454e02e59bd60c",
+  "buildings_data/Seoul_building.geojson": "804c36ba7dc2619f24f91759902cd5d522e1e2335bedb9e09ddffd3afe55c69d"
+}
