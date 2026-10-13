@@ -1,0 +1,190 @@
+{
+  "Bangkok": {
+    "country": "Thailand",
+    "latitude": 13.737116754012693,
+    "longitude": 100.51208492426733,
+    "timezone": "Asia/Bangkok",
+    "year": 2019,
+    "step_minutes": 10,
+    "assignment_eligible": false,
+    "weather_source": "Provided course dataset",
+    "building_source": "Provided course dataset",
+    "building_count": 1869
+  },
+  "Shenzhen": {
+    "country": "China",
+    "latitude": 22.77479352999377,
+    "longitude": 113.83685269803148,
+    "timezone": "Asia/Shanghai",
+    "year": 2020,
+    "step_minutes": 10,
+    "assignment_eligible": false,
+    "weather_source": "Provided course dataset",
+    "building_source": "Provided course dataset",
+    "building_count": 1080
+  },
+  "Seoul": {
+    "country": "South Korea",
+    "latitude": 37.564615584608575,
+    "longitude": 126.99203414032135,
+    "timezone": "Asia/Seoul",
+    "year": 2019,
+    "step_minutes": 10,
+    "assignment_eligible": true,
+    "weather_source": "Provided course dataset",
+    "building_source": "Provided course dataset",
+    "building_count": 1199
+  },
+  "Tokyo": {
+    "country": "Japan",
+    "latitude": 35.68538788985764,
+    "longitude": 139.6977662931619,
+    "timezone": "Asia/Tokyo",
+    "year": 2019,
+    "step_minutes": 10,
+    "assignment_eligible": true,
+    "weather_source": "Provided course dataset",
+    "building_source": "Provided course dataset",
+    "building_count": 1898
+  },
+  "Beijing": {
+    "latitude": 39.92,
+    "longitude": 116.41,
+    "country": "China",
+    "timezone": "Asia/Shanghai",
+    "year": 2019,
+    "step_minutes": 10,
+    "assignment_eligible": true,
+    "study_center": {
+      "latitude": 39.923,
+      "longitude": 116.41
+    },
+    "weather_source": "NSRDB Himawari PSM v3",
+    "weather_url": "https://developer.nlr.gov/docs/solar/nsrdb/himawari-download/",
+    "building_source": "OpenStreetMap",
+    "building_count": 1219,
+    "building_metadata": {
+      "features": 1219,
+      "dropped": 38,
+      "duplicates": 0,
+      "bbox_wgs84": [
+        116.39837748903082,
+        39.91393043675712,
+        116.42162557791566,
+        39.93206840612846
+      ],
+      "requested_width_m": 2000,
+      "snapshot": null,
+      "source": "OpenStreetMap",
+      "license": "ODbL-1.0",
+      "attribution": "© OpenStreetMap contributors",
+      "url": "https://www.openstreetmap.org/copyright",
+      "download_endpoint": "https://api.openstreetmap.org/api/0.6/map"
+    }
+  },
+  "Shanghai": {
+    "latitude": 31.22,
+    "longitude": 121.47,
+    "country": "China",
+    "timezone": "Asia/Shanghai",
+    "year": 2019,
+    "step_minutes": 10,
+    "assignment_eligible": true,
+    "study_center": {
+      "latitude": 31.225,
+      "longitude": 121.475
+    },
+    "weather_source": "NSRDB Himawari PSM v3",
+    "weather_url": "https://developer.nlr.gov/docs/solar/nsrdb/himawari-download/",
+    "building_source": "OpenStreetMap",
+    "building_count": 1173,
+    "building_metadata": {
+      "features": 1173,
+      "dropped": 59,
+      "duplicates": 0,
+      "bbox_wgs84": [
+        121.46464992390608,
+        31.215855424331604,
+        121.48535206817681,
+        31.23414379422793
+      ],
+      "requested_width_m": 2000,
+      "snapshot": null,
+      "source": "OpenStreetMap",
+      "license": "ODbL-1.0",
+      "attribution": "© OpenStreetMap contributors",
+      "url": "https://www.openstreetmap.org/copyright",
+      "download_endpoint": "https://api.openstreetmap.org/api/0.6/map"
+    }
+  },
+  "Singapore": {
+    "latitude": 1.3,
+    "longitude": 103.85,
+    "country": "Singapore",
+    "timezone": "Asia/Singapore",
+    "year": 2019,
+    "step_minutes": 10,
+    "assignment_eligible": true,
+    "study_center": {
+      "latitude": 1.3,
+      "longitude": 103.85
+    },
+    "weather_source": "NSRDB Himawari PSM v3",
+    "weather_url": "https://developer.nlr.gov/docs/solar/nsrdb/himawari-download/",
+    "building_source": "OpenStreetMap",
+    "building_count": 2466,
+    "building_metadata": {
+      "features": 2466,
+      "dropped": 67,
+      "duplicates": 0,
+      "bbox_wgs84": [
+        103.84101690193792,
+        1.2909504604871749,
+        103.8589831620014,
+        1.3090495640191724
+      ],
+      "requested_width_m": 2000,
+      "snapshot": null,
+      "source": "OpenStreetMap",
+      "license": "ODbL-1.0",
+      "attribution": "© OpenStreetMap contributors",
+      "url": "https://www.openstreetmap.org/copyright",
+      "download_endpoint": "https://api.openstreetmap.org/api/0.6/map"
+    }
+  },
+  "Perth": {
+    "latitude": -31.94,
+    "longitude": 115.85,
+    "country": "Australia",
+    "timezone": "Australia/Perth",
+    "year": 2019,
+    "step_minutes": 10,
+    "assignment_eligible": true,
+    "study_center": {
+      "latitude": -31.95,
+      "longitude": 115.86
+    },
+    "weather_source": "NSRDB Himawari PSM v3",
+    "weather_url": "https://developer.nlr.gov/docs/solar/nsrdb/himawari-download/",
+    "building_source": "OpenStreetMap",
+    "building_count": 2821,
+    "building_metadata": {
+      "features": 2821,
+      "dropped": 62,
+      "duplicates": 0,
+      "bbox_wgs84": [
+        115.84930839061762,
+        -31.958924627965438,
+        115.87068954285078,
+        -31.941074411521928
+      ],
+      "requested_width_m": 2000,
+      "snapshot": null,
+      "source": "OpenStreetMap",
+      "license": "ODbL-1.0",
+      "attribution": "© OpenStreetMap contributors",
+      "url": "https://www.openstreetmap.org/copyright",
+      "download_endpoint": "https://api.openstreetmap.org/api/0.6/map"
+    }
+  }
+}

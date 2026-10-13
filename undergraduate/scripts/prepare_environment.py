@@ -59,6 +59,6 @@ def prepare(root):
               'input_files_verified': len(checks)}
     (root / 'result').mkdir(exist_ok=True)
     (root / 'result/environment.json').write_text(json.dumps(report, indent=2))
-    print('Ready: four-city weather and building data, PV libraries and geometry checks passed.')
+    print('Ready: eight-city weather and building data, PV libraries and geometry checks passed.')
     print('Continue with the next cell. Save your Notebook and download results before ending the session.')
     return root

@@ -1,10 +1,18 @@
 {
-  "weather_data/Shenzhen_weather.csv": "1918c08640bdb4862c39af8a34dfade2ffcac3569005f9d6cad8a12f228b6bd9",
   "weather_data/Bangkok_weather.csv": "c593972c5116a71ec489cb4aebe2fbee102be4d8fb9807d1e7ff60745a2766e4",
+  "weather_data/Beijing_weather.csv": "89686792fce8a7a04526a373bc087c1df754dbd054262f6cf068683096e9267d",
+  "weather_data/Perth_weather.csv": "80f99e426fb308521579408b6b16bd8a08875c06e2a323f5ea8da3a1443975db",
   "weather_data/Seoul_weather.csv": "da9be03fdf981cd9105d63601ce2690c5c586f5032f6308babac3337d8efa39a",
+  "weather_data/Shanghai_weather.csv": "dbc3f9923fd34b0b6c9e1aa25d394c871eb60d6952664a7b64dfe6e368c8f7b6",
+  "weather_data/Shenzhen_weather.csv": "1918c08640bdb4862c39af8a34dfade2ffcac3569005f9d6cad8a12f228b6bd9",
+  "weather_data/Singapore_weather.csv": "e962d3026aee1425600fb9e81e282af45aceb72ea330d7ec363b816962d2f1a1",
   "weather_data/Tokyo_weather.csv": "d52fc611cbc1a017b4640c7d3a062c50e17d2a9d9c6a1dcad489df9fa9ba4fe7",
-  "buildings_data/Shenzhen_building.geojson": "336fb8f4202e17b63e85f02541c0a4c21644058025b2355b4a47fa13f1bc9833",
-  "buildings_data/Tokyo_building.geojson": "2812e08938a971dc11958a5c777b4af96a05754c9a6882bbb635bb3154b859da",
   "buildings_data/Bangkok_building.geojson": "8207d09d40d16ddc480784e7bff1ab296849ea9aec86982ec2454e02e59bd60c",
-  "buildings_data/Seoul_building.geojson": "804c36ba7dc2619f24f91759902cd5d522e1e2335bedb9e09ddffd3afe55c69d"
+  "buildings_data/Beijing_building.geojson": "788ef6b1ac6dbc910a229c7c7852b4aa5e2cc938a2670c5200e7da8db52ceb32",
+  "buildings_data/Perth_building.geojson": "253df8eb98fcc9fd31e2bf4709aa9b7f2ef42d2ee3adc714ee93375272d05740",
+  "buildings_data/Seoul_building.geojson": "804c36ba7dc2619f24f91759902cd5d522e1e2335bedb9e09ddffd3afe55c69d",
+  "buildings_data/Shanghai_building.geojson": "7c308b5b5ebbfb6ac3f7925a6477ebf03c7ae682427cce87f6a7248e7ee07915",
+  "buildings_data/Shenzhen_building.geojson": "336fb8f4202e17b63e85f02541c0a4c21644058025b2355b4a47fa13f1bc9833",
+  "buildings_data/Singapore_building.geojson": "3c18ebab252d329ba740be5ac86dc606c19afabe9339f90c415ff7d860f6c47c",
+  "buildings_data/Tokyo_building.geojson": "2812e08938a971dc11958a5c777b4af96a05754c9a6882bbb635bb3154b859da"
 }

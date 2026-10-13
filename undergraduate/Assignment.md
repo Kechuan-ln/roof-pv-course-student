@@ -4,7 +4,7 @@ Assess the solar resource and rooftop PV potential of a study area, then develop
 
 ## Core PV analysis
 
-Select a city other than Bangkok or Shenzhen for the main analysis. The supplied assignment cities are Seoul and Tokyo.
+Select a city other than Bangkok or Shenzhen for the main analysis. The supplied assignment cities are Beijing, Shanghai, Singapore, Perth, Seoul and Tokyo.
 
 Use `Solar_PV_Practical.ipynb` to calculate and visualize the following results. Select the figures required for your report.
 
